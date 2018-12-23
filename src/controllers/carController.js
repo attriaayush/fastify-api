@@ -23,9 +23,10 @@ const getSingleCar = async (req, reply) => {
 
 const addCar = async (req, reply) => {
     try {
-        const car = new Car(req.id);
+        const car = new Car(req.body);
         return car.save();
     } catch (err) {
+        console.log(err);
         throw boom.boomify(err);
     }
 }
