@@ -14,7 +14,7 @@
   "author": "Aayush Attri",
   "license": "MIT",
   "dependencies": {
-    "mongoose": "^5.4.0",
+    "mongoose": "^5.13.20",
     "nodemon": "^1.18.9"
   },
   "devDependencies": {
