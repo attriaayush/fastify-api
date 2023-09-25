@@ -1,0 +1,20 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "fastify api with higher concurrency",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "test": "echo \"Error: no tests\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/attriaayush/fastify-api.git"
+  },
+  "author": "Aayush Attri",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
