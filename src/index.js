@@ -5,6 +5,9 @@ const fastify = require('fastify')({
     logger: true
 });
 
+
+const token = "super secret token";
+
 mongoose.connect(`mongodb://127.0.0.1:27017/mycargarage`, { useNewUrlParser: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
